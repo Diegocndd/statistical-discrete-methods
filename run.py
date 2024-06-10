@@ -1,8 +1,10 @@
 from bernoulli import bernoulli
 from geometric import geometric
+from poisson import poisson
 
 bernoulli(0.8, 3)
 geometric(0.01, 15)
+poisson(1, 5)
 
 # import matplotlib.pyplot as plt
 
